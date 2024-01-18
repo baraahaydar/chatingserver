@@ -1,0 +1,61 @@
+ion-header {
+    --background: #FFF; /* Use your page's background color */
+    --ion-color-warning: #ffc409; /* This is for the badge */
+  }
+  
+  ion-title {
+    font-weight: normal;
+    font-size: 1.3rem;
+  }
+  
+  ion-badge {
+    margin: 0 16px;
+  }
+  
+  ion-list {
+    margin-top: 1em;
+    overflow: auto;
+  }
+  
+  ion-item {
+    --border-color: #fff;
+    --padding-start: 1em;
+    --padding-end: 1em;
+    --inner-padding-end: 1em;
+    --min-height: 0;
+  }
+  
+  ion-avatar {
+    --border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  
+  ion-label {
+    --text-wrap: wrap;
+  }
+  
+  h2 {
+    font-size: 0.9rem;
+    font-weight: normal;
+  }
+  
+  p {
+    font-size: 0.8rem;
+    color: #666;
+  }
+  
+  ion-note {
+    font-size: 0.8rem;
+    margin-right: 1em;
+  }
+  
+  ion-icon {
+    --ionicon-stroke-width: 32px;
+  }
+.matches{
+    color: #d51094;
+}
+.btn{
+    background-color: yellow;
+} 

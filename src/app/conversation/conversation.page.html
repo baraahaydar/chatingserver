@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="matches">Matches</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item lines="none">
+      <ion-avatar slot="start">
+        <img src="assets/avatar.jpg" />
+      </ion-avatar>
+      <ion-label class="matches">Yara</ion-label>
+    </ion-item>
+    <!-- Repeat for each match -->
+  </ion-list>
+
+  <ion-header translucent>
+    <ion-toolbar>
+      <ion-title>Messages</ion-title>
+      <ion-badge color="warning" slot="end">2</ion-badge>
+    </ion-toolbar>
+  </ion-header>
+  <ion-toolbar>
+    <ion-searchbar placeholder="Search"></ion-searchbar>
+    <ion-buttons slot="end" class="btn">
+      <ion-button> Create </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+  <ion-content>
+    <ion-list>
+      <ion-item lines="none" detail>
+        <ion-avatar slot="start">
+          <img src="assets/avatar.jpg" />
+        </ion-avatar>
+        <ion-label>
+          <h2>Latifa Al Tounisiyya</h2>
+          <p>Hello, nice talking to you</p>
+        </ion-label>
+        <ion-note slot="end" color="medium">18:34</ion-note>
+      </ion-item>
+      <!-- Repeat for other messages -->
+    </ion-list>
+
+    <div
+      style="
+        position: fixed;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        text-align: center;
+      "
+    >
+      <ion-icon name="person-outline" size="large"></ion-icon>
+      <ion-icon
+        name="heart-outline"
+        size="large"
+        style="margin: 0 30px"
+      ></ion-icon>
+      <ion-icon name="chatbubble-outline" size="large"></ion-icon>
+    </div>
+  </ion-content>
+</ion-content>
